@@ -5,14 +5,14 @@ This repository implements a **prototype of the "Cryptography with Certified Del
 
 ---
 
-## 🧠 What is Certified Deletion?
+## What is Certified Deletion?
 
 Normally, when someone receives encrypted data, they can **store and decrypt it later**.  
 But quantum mechanics changes the game — measuring a quantum state *irreversibly destroys information*.  
 
 Certified deletion uses this principle to build an **encryption system where deletion can be verified**.
 
-### ✨ Core Idea
+### Core Idea
 When Alice encrypts a bit `b` for Bob:
 1. She generates random bitstrings `x` and `θ`.  
 2. She encodes each bit of `x` in the basis given by `θ`:  
@@ -32,7 +32,7 @@ If true → the qubits were destroyed, and `b` can no longer be recovered.
 
 ---
 
-## 🧩 Implementation Overview
+## Implementation Overview
 
 This repo implements a **simulated version** of the scheme using Python and [Qiskit](https://qiskit.org/).
 
